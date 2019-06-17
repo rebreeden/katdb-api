@@ -1,0 +1,11 @@
+# Ignore everything
+*
+!.gitignore
+!controllers/
+!controllers/*
+!Dockerfile
+!.env 
+!package.json
+!server.js
+!.vscode/
+!.vscode/*
