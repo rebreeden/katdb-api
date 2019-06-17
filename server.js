@@ -4,7 +4,6 @@ const express = require('express')
 // use process.env variables to keep private variables,
 // be sure to ignore the .env file in github
 require('dotenv').config({path: process.env.DOTENV_CONFIG_PATH});
-console.log(require('dotenv').config());
 
 // Express Middleware
 const helmet = require('helmet') // creates headers that protect from attacks (security)
